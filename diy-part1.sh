@@ -21,5 +21,4 @@ sed -i 's/src-git luci https:\/\/github.com\/coolsnowwolf\/luci.git;openwrt-23.0
 
 echo >> feeds.conf.default
 echo 'src-git istore https://github.com/linkease/istore;main' >> feeds.conf.default
-./scripts/feeds update istore
-./scripts/feeds install -d y -p istore luci-app-store
+
