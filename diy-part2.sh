@@ -38,7 +38,7 @@ rm -rf feeds/smpackage/{base-files,dnsmasq,firewall*,fullconenat,libnftnl,nftabl
 #cp -rf kenzok8-packages/luci-lib-taskd package/luci-lib-taskd
 #cp -rf kenzok8-packages/taskd package/taskd
 #cp -rf kenzok8-packages/luci-lib-xterm package/luci-lib-xterm
-rm -rf kenzok8-packages
+#rm -rf kenzok8-packages
 
 #git clone --depth=1 https://github.com/vernesong/OpenClash.git OpenClash-packages
 #cp -rf OpenClash-packages/luci-app-openclash package/luci-app-openclash
