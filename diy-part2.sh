@@ -19,10 +19,11 @@
 # Modify hostname
 #sed -i 's/OpenWrt/P3TERX-Router/g' package/base-files/files/bin/config_generate
 
-rm -rf feeds/luci/themes/luci-theme-argon
-rm -rf feeds/luci/applications/luci-app-adguardhome
-rm -rf feeds/packages/net/adguardhome
-rm -rf feeds/luci/applications/luci-app-openclash
+#rm -rf feeds/luci/themes/luci-theme-argon
+#rm -rf feeds/luci/applications/luci-app-adguardhome
+#rm -rf feeds/packages/net/adguardhome
+#rm -rf feeds/luci/applications/luci-app-openclash
+rm -rf feeds/smpackage/{base-files,dnsmasq,firewall*,fullconenat,libnftnl,nftables,ppp,opkg,ucl,upx,vsftpd*,miniupnpd-iptables,wireless-regdb}
 
 #git clone --depth=1 https://github.com/kenzok8/small-package.git kenzok8-packages
 #cp -rf kenzok8-packages/ddnsto package/ddnsto
