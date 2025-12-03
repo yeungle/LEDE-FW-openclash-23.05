@@ -31,8 +31,8 @@ cp -rf kenzok8-packages/wrtbwmon package/wrtbwmon
 cp -rf kenzok8-packages/luci-app-wrtbwmon package/luci-app-wrtbwmon
 cp -rf kenzok8-packages/adguardhome package/adguardhome
 cp -rf kenzok8-packages/luci-app-adguardhome package/luci-app-adguardhome
-cp -rf kenzok8-packages/quickstart package/quickstart
-cp -rf kenzok8-packages/luci-app-quickstart package/luci-app-quickstart
+#cp -rf kenzok8-packages/quickstart package/quickstart
+#cp -rf kenzok8-packages/luci-app-quickstart package/luci-app-quickstart
 #cp -rf kenzok8-packages/luci-app-store package/luci-app-store
 #cp -rf kenzok8-packages/luci-lib-taskd package/luci-lib-taskd
 #cp -rf kenzok8-packages/taskd package/taskd
