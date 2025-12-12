@@ -47,5 +47,5 @@ rm -rf feeds/smpackage/{base-files,dnsmasq,firewall*,fullconenat,libnftnl,nftabl
 
 #git clone --depth=1 https://github.com/jerrykuku/luci-theme-argon package/luci-theme-argon
 
-./scripts/feeds update -a
-./scripts/feeds install -a
+#./scripts/feeds update -a
+#./scripts/feeds install -a
