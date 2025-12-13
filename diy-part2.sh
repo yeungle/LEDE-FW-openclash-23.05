@@ -45,7 +45,7 @@ git clone https://github.com/linkease/istore package/istore
 
 git clone https://github.com/destan19/OpenAppFilter.git package/OpenAppFilter
 
-git clone https://github.com/vernesong/OpenClash.git OpenClash-packages
+git clone --depth=1 https://github.com/vernesong/OpenClash.git OpenClash-packages
 cp -rf OpenClash-packages/luci-app-openclash package/luci-app-openclash
 rm -rf OpenClash-packages
 
