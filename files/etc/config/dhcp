@@ -1,4 +1,4 @@
-
+ 
 config dnsmasq
 	option domainneeded '1'
 	option localise_queries '1'
@@ -47,9 +47,9 @@ config host
 	option ip '192.168.88.100'
 
 config host
-	option name 'DS918'
+	option name 'fnOS'
 	option dns '1'
-	option mac '00:11:32:82:68:b7'
+	option mac '00:0C:29:41:C5:51'
 	option ip '192.168.88.101'
 	option leasetime '12h'
 
