@@ -113,6 +113,9 @@ dns:
     - +.aerianas.top
     - +.gptacg.top
     - +.wxda.net
+    - "*.aiwenyun.cn"
+    - "*.cecchina.com"
+    - "*.plaso.com" 
 
 ipv6: false
 
