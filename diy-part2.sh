@@ -82,6 +82,7 @@ cp -rf extra-ipk/op-homebox/luci-app-homebox package/luci-app-homebox
 rm -rf extra-ipk
 
 git clone --depth=1 https://github.com/jjm2473/luci-app-autotimeset.git package/luci-app-autotimeset
+git clone --depth=1 https://github.com/coolsnowwolf/luci/openwrt-23.05/applications/luci-app-accesscontrol.git package/luci-app-accesscontrol
 
 #./scripts/feeds update -a
 #./scripts/feeds install -a
