@@ -83,9 +83,7 @@ rm -rf extra-ipk
 
 git clone --depth=1 https://github.com/jjm2473/luci-app-autotimeset.git package/luci-app-autotimeset
 
-#git clone --depth=1 -b openwrt-23.05 https://github.com/coolsnowwolf/luci.git package/luci
-#cp -rf package/luci/applications/luci-app-accesscontrol package/luci-app-accesscontrol
-#rm -rf package/luci
+git clone --depth=1 https://github.com/CrazyPegasus/luci-app-accesscontrol-plus.git package/luci-app-accesscontrol-plus
 
 #./scripts/feeds update -a
 #./scripts/feeds install -a
