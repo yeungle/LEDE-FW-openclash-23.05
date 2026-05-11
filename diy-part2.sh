@@ -51,8 +51,8 @@ cp -rf OpenAppFilter/oaf package/oaf
 cp -rf OpenAppFilter/open-app-filter package/open-app-filter
 rm -rf OpenAppFilter
 
-git clone --depth=1 https://github.com/jerrykuku/luci-theme-argon.git luci-theme-argon
-git clone --depth=1 -b js https://github.com/papagaye744/luci-theme-design.git luci-theme-design
+git clone --depth=1 https://github.com/jerrykuku/luci-theme-argon.git package/luci-theme-argon
+git clone --depth=1 -b js https://github.com/papagaye744/luci-theme-design.git package/luci-theme-design
 
 git clone --depth=1 https://github.com/linkease/istore.git istore
 cp -rf istore/luci/luci-app-store package/luci-app-store
@@ -81,7 +81,7 @@ cp -rf extra-ipk/op-homebox/homebox package/homebox
 cp -rf extra-ipk/op-homebox/luci-app-homebox package/luci-app-homebox
 rm -rf extra-ipk
 
-git clone --depth=1 https://github.com/jjm2473/luci-app-autotimeset.git luci-app-autotimeset
+git clone --depth=1 https://github.com/jjm2473/luci-app-autotimeset.git package/luci-app-autotimeset
 
 #./scripts/feeds update -a
 #./scripts/feeds install -a
