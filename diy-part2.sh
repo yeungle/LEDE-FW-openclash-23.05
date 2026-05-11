@@ -42,8 +42,8 @@ cp -rf kenzok8-packages/luci-app-fastnet package/luci-app-fastnet
 rm -rf kenzok8-packages
 
 git clone --depth=1 https://github.com/vernesong/OpenClash.git OpenClash
-cp -rf OpenClash-packages/luci-app-openclash package/luci-app-openclash
-rm -rf OpenClash-packages
+cp -rf OpenClash/luci-app-openclash package/luci-app-openclash
+rm -rf OpenClash
 
 git clone --depth=1 https://github.com/destan19/OpenAppFilter.git OpenAppFilter
 cp -rf OpenAppFilter/luci-app-oaf package/luci-app-oaf
